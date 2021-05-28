@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/comands.js"></script>
+    <script src="js/botao.js"></script>
+
+</head>
+<body>
+
+<h1 id="oi"><center>Grade horária da turma 5/6 CCO Noturno</center></h1>
+<center>
+<table>
+    <tr>
+        <th>
+            Horário
+        </th>
+        <th id="IA">
+            Segunda-feira
+        </th>
+        <th id="matematica">
+            Terça-feira
+        </th>
+        <th id="Estrutura">
+            Quarta-feita
+        </th>
+        <th id="Framework">
+            Quinta-feita
+        </th>
+        <th id="Empreendedorismo">
+            Sexta-feita
+        </th>
+    </tr>
+    <tr>
+        <td class="hr">
+            19:10 - 20:00
+        </td>
+        <td>
+            IA
+        </td>
+        <td>
+            Matemática
+        </td>
+        <td>
+            Estrutura de dados
+        </td>
+        <td>
+            Framework 2
+        </td>
+        <td>
+            Empreendedorismo
+        </td>
+    </tr>
+    <tr>
+        <td class="hr">
+            20:00 - 20:50
+        </td>
+        <td>
+            IA
+        </td>
+        <td>
+            Matemática
+        </td>
+        <td>
+            Estrutura de dados
+        </td>
+        <td>
+            Framework 2
+        </td>
+        <td>
+            Empreendedorismo
+        </td>
+    </tr>
+    <tr>
+        <td class="hr">
+            20:50 - 21:00
+        </td>
+        <td>
+            Intervalo
+        </td>
+        <td>
+            Intervalo
+        </td>
+        <td>
+            Intervalo
+        </td>
+        <td>
+            Intervalo
+        </td>
+        <td>
+            Intervalo
+        </td>
+    </tr>
+    <tr>
+        <td class="hr">
+            21:00 - 21:50
+        </td>
+        <td>
+            IA
+        </td>
+        <td>
+            Matemática
+        </td>
+        <td>
+            Esturura de dados
+        </td>
+        <td>
+            Framework 2
+        </td>
+        <td>
+           Empreendedorismo
+        </td>
+    </tr>
+</table>
+</center>
+<center>
+    <p>
+        Informe a disciplina a ser localizada:
+        <br>
+        <input type="text" id="botaos" >
+        <input type="submit"  value="Localizar" onclick="botao()">
+        <p id="valorDigitado"></p>
+
+
+    </p>
+    
+    <h3>Salas de Aula</h3>
+    <br>
+    <div id="mar">
+        <label style="margin: 0px; padding: 0px;" id="IAs">Segunda-feira</label>
+        <ol class="normal2">
+            <li style="font-size: 30px;">Sala 352</li>
+            <li>3º andar próxima ao laboratório de física.</li>
+        </ol>
+        <label id= "matematicas">Terça-feira</label>
+        <ol class="normal2">
+            <li style="font-size: 30px;">Sala 52</li>
+            <li>Andar térreo próximo a sala dos professores.</li>
+        </ol>
+        <label id="Estruturas">Quarta-feira</label>
+        <ol class="normal2">
+            <li style="font-size: 30px;">Sala 352</li>
+            <li>3º andar próxima ao laboratório de física.</li>
+        </ol>
+        <label id="Frameworks">Quinta-feira</label>
+        <ol class="normal2">
+            <li style="font-size: 30px;">Laboratório 19</li>
+            <li>2º andar na área dos laboratórios de TI.</li>
+        </ol>
+        <label id="Empreendedorismos">Sexta-feira</label>
+        <ol class="normal2">
+            <li style="font-size: 30px;">Sala 252</li>
+            <li>2º andar próxima ao laboratório de química.</li>
+        </ol>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,36 @@
+td{
+    border: 2px solid black;
+    color: gray;
+}
+th{
+    border: 2px solid black;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+table{
+    border: 2px solid black;
+}
+
+.hr{
+    color: red;
+    font-weight: bolder;
+}
+
+ol.normal {
+    list-style-type: none;
+    margin: 0px;
+}
+
+
+ol.normal2 {
+    list-style-type: none;
+    margin: 0 15px;
+    padding: 10px 10px;
+}
+
+#mar{
+    padding: 0px 35px;
+}
